@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="logo.png" alt="Logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#" class="register-btn">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page" id="page1">
+                <div class="registration-portal">
+                    <h2>Welcome to</h2>
+                    <h1>REGISTRATION PORTAL</h1>
+                    <div class="note">
+                        <p><strong>NOTE:</strong> Please read all the necessary details about the event before filling the form.</p>
+                    </div>
+                    <button id="proceed-btn">Proceed to</button>
+                    <div class="steps">
+                        <div class="step active">1</div>
+                        <div class="line"></div>
+                        <div class="step">2</div>
+                        <div class="line"></div>
+                        <div class="step">3</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page" id="page2">
+                <div class="registration-portal">
+                    <h2>Details of</h2>
+                    <h1>TEAM LEADER</h1>
+                    <form>
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your mail ID">
+                        <input type="text" placeholder="Enter your SIC">
+                        <select>
+                            <option>Select your year</option>
+                            <option>1st Year</option>
+                            <option>2nd Year</option>
+                            <option>3rd Year</option>
+                            <option>4th Year</option>
+                        </select>
+                        <select>
+                            <option>Select your branch</option>
+                            <option>Computer Science</option>
+                            <option>Electronics</option>
+                            <option>Mechanical</option>
+                            <option>Civil</option>
+                        </select>
+                        <select>
+                            <option>Select the number of members in your team</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                        <button type="submit">Next</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
