@@ -156,6 +156,6 @@ form input, form select, form button {
 }
 form button {
     background-color: orange;
-    color: white;
+    color: rgba(255, 255, 255, 0.167);
     cursor: pointer;
 }
