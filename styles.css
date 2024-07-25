@@ -18,13 +18,16 @@ header {
     padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    margin: 3rem 3rem 3rem;
+    margin: 3rem 13rem 3rem;
     width: 1000px;
     position: absolute;
     top: 0;
 }
+
+
 header .logo img {
     width: 50px;
+    align-items: flex-start; 
 }
 
 nav ul {
@@ -142,18 +145,22 @@ main {
     width: 40px;
     height: 2px;
     background-color: #fff;
-    margin: 0 10px;
+    margin: 10px;
+    align-items: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    color: ;
 }
-form input, form select, form button {
+form input, form select {
     padding: 0.5rem;
     border-radius: 5px;
     border: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.642);
 }
 form button {
     background-color: orange;
